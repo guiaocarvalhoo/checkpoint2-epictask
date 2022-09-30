@@ -1,0 +1,16 @@
+# Listar todos
+GET http://localhost:8080/api/task
+
+###
+
+# Cadastrar
+POST http://localhost:8080/api/task
+Content-Type: application/json
+Authorization: Basic joao@fiap.com.br 123
+
+{
+      "title": "BD",
+      "description": "modelar o banco",
+      "score": 100,
+      "status": 0
+}
